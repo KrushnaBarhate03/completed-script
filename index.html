@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 
 <head>
@@ -39,7 +39,64 @@
         </nav>
     </header>
 
+    <ul id="sidebar">
+        <i class="fa-solid fa-circle-xmark close-menub" onclick="closeSidebar()"></i>
+
+        <li><b>Home</b></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/nav.css">
+  
+</head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./icon/train.png" alt="Train Booking India Logo">
+                </a>
+
+            </div>
+
+            <div class="menu-item">
+                <input type="text" class="search-bar menu-text" placeholder="Search Product.in">
+                <i class="fa-solid fa-magnifying-glass menu-icon menu-i in"></i>
+            </div>
+
+            <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+
+            <ul class="nav-links" id="desktop-navbar">
+                <li><b>Home</b></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <ul id="sidebar">
+        <i class="fa-solid fa-circle-xmark close-menub" onclick="closeSidebar()"></i>
+
+        <li><b>Home</b></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>
+
+
+
 
     <div class="container">
        
@@ -146,6 +203,44 @@
                     </button>
                     </a>
                    </div>
+    
+    
+        <!--<footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Phone: +91 9561510000</p>
+                <p>Email: support@krushna.com</p>
+                <p>Address: India</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://facebook.com/" target="_blank"><img src="./icon/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="./icon/Twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com/" target="_blank"><img src="./icon/instagram.png" alt="Instagram"></a>
+                <a href="https://linkedin.com/" target="_blank"><img src="./icon/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <div class="newsletter-signup">
+                <h3>Newsletter Signup</h3>
+                <form>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 . All rights reserved.</p>
+        </div>
+    </footer>-->
     <footer>
         <div class="footer-content">
             <div class="contact-info">
@@ -186,6 +281,10 @@
     
 
     <script src="https://kit.fontawesome.com/10e1ccecc8.js" crossorigin="anonymous"></script>
+
+
+    
+
 
 
     <script>
